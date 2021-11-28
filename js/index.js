@@ -12,7 +12,7 @@ let snakeArr = [
 ];
 
 food = {x: 6, y: 7};
-
+musicSound.play();
 // Game Functions
 function main(ctime) {
     window.requestAnimationFrame(main);
